@@ -14,7 +14,7 @@ ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #eee;
+  background: rgb(112, 61, 128);
   font-size: 18px;
   transition: 0.2s;
 
@@ -27,18 +27,18 @@ ul li {
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
-  background: #f9f9f9;
+  background: #742c6e;
 }
 
 /* Darker background-color on hover */
 ul li:hover {
-  background: #ddd;
+  background: rgb(77, 43, 100);
 }
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
-  color: #fff;
+  background: rgb(56, 29, 75);
+  color: rgb(155, 31, 238);
   text-decoration: line-through;
 }
 
@@ -46,7 +46,7 @@ ul li.checked {
 ul li.checked::before {
   content: '';
   position: absolute;
-  border-color: #fff;
+  border-color: rgba(145, 118, 2, 0.726);
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 10px;
@@ -65,15 +65,15 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
-  color: white;
+  background-color: #926607;
+  color: plum;
 }
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: #9d40f4;
   padding: 30px 40px;
-  color: white;
+  color: purple;
   text-align: center;
 }
 
@@ -99,8 +99,8 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  background: #f761ca;
+  color: rgb(253, 133, 207);
   float: left;
   text-align: center;
   font-size: 16px;
@@ -110,5 +110,5 @@ input {
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: rgba(224, 210, 222, 0.021);
 }
