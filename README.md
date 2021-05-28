@@ -1,6 +1,6 @@
 # CodePath-To-Do_List
 
-# Project 1 - *ToDo List*
+*ToDo List*
 
 **To-Do List** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
